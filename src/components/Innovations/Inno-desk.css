@@ -1,0 +1,166 @@
+*{margin:0;padding:0;}
+a {color:inherit;text-decoration:none;}
+
+
+
+#wrap{
+  position:relative;
+  left:0; top:0;
+  width:200%;
+  height:100%;
+  display:flex;
+  align-items:stretch;
+  margin:0 25%;
+}
+
+.innovation{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.innovation h2{
+  position: absolute;
+  margin-top: 10%;
+  left: 45%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  z-index: 3;
+}
+
+.innovation .hb {
+  cursor: auto;
+  position:relative;
+  width:25%;
+  display:flex;
+  align-items:center;
+  z-index:2;
+  transform:scale(.97);
+}
+.innovation .c{
+  position:relative;
+  display:block;
+  max-width:90%;
+}
+.innovation .c img {
+  position:relative;
+  display:block;
+  width:110%;
+  height:auto;
+  z-index:2;
+}
+.innovation .txt {
+  position:absolute;
+  color: var(--text-color);
+  top:100%; left:10%;
+  width:80%;
+  opacity:0;
+  padding:1em 0 0 1em;
+  border-left:1px solid;
+  z-index:1;
+  transform:scaleY(1) translateY(-50px);
+  transition:transform .2s, opacity .5s;
+}
+
+.innovation{
+  .card{
+    align-items: center;
+position: relative;
+width: 105%;
+height: 105px;
+box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+background: rgb(255, 255, 255, 0.1);
+overflow: hidden;
+display: flex;
+border-top: 1px solid var(--text-color);
+border-left: 1px solid var(--text-color);
+backdrop-filter: blur(3px);
+}
+}
+
+.innovation .card p{
+  margin-left: 10px;
+}
+
+.innovation .ico{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.innovation .ico a{
+  display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-top: -20px;
+    transition: .5s ease;
+}
+
+.innovation .ico a:hover{
+  background: var(--main-color);
+    color:var(--text-color);
+    box-shadow: 0 0 1rem var(--main-color)
+}
+
+.innovation h1 {
+  font-size:1.2em;
+  font-weight:700;
+  color: var(--main-color);
+  text-transform:uppercase;
+}
+.innovation .hb:hover .txt {
+  opacity:1;
+  transform:scaleY(1) translateY(0);
+}
+.innovation .fullBg {
+  position:absolute;
+  top:0;
+  left:-12%;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition:transform .5s, opacity .5s;
+  transform:scale(1);
+  z-index:1;
+}
+.innovation .fullBg img {
+  width:50%;height:100%;
+  object-fit:cover;object-position:center;
+  opacity:.5;
+}
+.innovation .hb:hover + .fullBg {opacity:1;transform:scale(1.02);}
+.innovation .credits {
+  position:fixed;
+  bottom:0;right:0;
+  padding:1.5em;
+  font-size:.8em;
+  text-align:right;
+  font-style:italic;
+  opacity:.8;
+  transition:opacity .2;
+  z-index:3;
+}
+.innovation .credits:hover {
+  text-decoration:underline;
+  opacity:1;
+}
+
+@media(max-width:800px){
+
+  .innovation h2{
+    position: absolute;
+    margin-top: 10%;
+    left: 45%;
+  }
+
+  .innovation .c img {
+    width: 150px;
+  }
+}

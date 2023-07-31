@@ -1,0 +1,38 @@
+
+
+.linear-progress {
+  margin-top: 4px;
+  display: inline-block;
+  padding: 1rem 2rem 2rem;
+  width: 40%;
+  height: 10px; /* Adjust the height as needed */
+  background-color: transparent; /* Background color of the progress bar */
+}
+
+.linear-progress-bar {
+  position: relative; /* Add relative positioning */
+  height: 120%;
+  border-radius: 0%;
+  background-color: #ec2146; /* Color of the progress bar */
+  transition: 0.001s ease-out; /* Adjust the transition duration as needed */
+}
+
+.linear-progress-bar::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -3px;
+  width: 12px; /* Adjust the size of the dot */
+  height: 12px; /* Adjust the size of the dot */
+  border-radius: 50%;
+  background-color: #fff; /* Color of the dot */
+  box-shadow: 0 0 8px 2px rgba(236, 33, 70, 0.8);
+}
+
+.linear-progress-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px; /* Adjust the font size as needed */
+  color: var(--text-color); /* Color of the progress text */
+  text-align: start;
+  line-height: 20px; /* Adjust the line height to vertically center the text */
+}

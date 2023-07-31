@@ -1,0 +1,216 @@
+.outer_nav{
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar a.active {
+    color: var(--main-color);
+  }
+
+.section-navbar{
+	
+	width: 100%;
+	height: 70px;
+	background-color:'transparent';
+	backdrop-filter: blur(5px);
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	z-index: 1000;
+    
+}
+.section-navbar i{
+    display: none;
+    color: var(--main-color);
+
+}
+
+
+.section-navbar .logo{
+	font-size: 1.9rem;
+	color: var(--text-color);
+	font-weight: 500;
+	cursor: default;
+   
+}
+
+.navbar{
+	display:flex;
+	
+	/* background-color: blue; */
+    
+    flex-wrap: wrap;
+    transition: 0.5s ease;
+    opacity: 0;
+    animation: slideTop 0.5s ease forwards;
+    animation-delay: calc(.2s*var(--i))
+}
+
+@keyframes slideTop{
+    0%{
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0);
+      opacity: 1;
+    }
+  
+   }
+
+.navbar1{
+    position: relative;
+    display: none;
+    height: 100vh;
+    top:0;
+    font-size: 1.4rem;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+	color: var(--text-color);
+    background-color:'transparent';
+	backdrop-filter: blur(6px);
+    /* align-content:end; */
+    justify-content:center;
+    /* transition:all; */
+    /* height: 110%; */
+    transition: 5s ease;
+}
+
+.navbar1{
+    .btn {
+        display: block;
+        margin-left: 30px;
+        margin-bottom: 15%;
+        background: var(--main-color);
+        color: var(--text-color);    
+        padding: 0.8rem 1.5rem;
+        border-radius: 4rem;
+        box-shadow: 0 0 0.5rem var(--text-color);
+        width: fit-content;
+        /* height: m-content; */
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        font-weight: 600;
+        transition: 2s ease;
+    }
+}
+
+.navbar a{
+	font-size: 1.3rem;
+	color: var(--text-color);
+	margin-left: 2rem;
+	transition: 0.3s;
+}
+
+.navbar a:hover ,
+.navbar a.active {
+	color: var(--main-color)
+}
+
+:root {
+    --toggleHeight: 15em;
+    --toggleWidth: 32em;
+    --toggleBtnRadius: 10em;
+  
+    --bgColor--night: #261f3f;
+    --mooncolor: #ffffff;
+  }
+  
+body{
+    transition: all 0.3s ease-in-out;
+}
+
+.light{
+    background: var(--bg-color);
+}
+.tdnn {
+    /*change size of toggle with font-size*/
+    font-size: 12%;
+    margin-top: 2px;
+     position: relative;
+      height: var(--toggleHeight);
+      width: var(--toggleWidth);
+      border-radius: var(--toggleHeight);
+    transition: all 500ms ease-in-out;
+    background: var(--bgColor--night);
+    
+}
+
+.day{
+    background: #c4dde2;
+}
+
+.moon {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    transition: all 400ms ease-in-out;
+    
+    top: 1.5em;
+    left: 2.7em;
+    transform: rotate(-75deg);
+    width: var(--toggleBtnRadius);
+    height: var(--toggleBtnRadius);
+    background: var(--bgColor--night);
+    box-shadow: 
+      3em 2.5em 0 0em var(--mooncolor) inset,
+      rgba(255, 255, 255, 0.66) 3em 7em 0 -4.5em,
+      rgba(255, 255, 255, 0.66) 2em 13em 0 -4em,
+      rgba(255, 255, 255, 0.66) 6em 2em 0 -4.1em,
+      rgba(255, 255, 255, 0.66) 8em 8em 0 -4.5em,
+      rgba(255, 255, 255, 0.66) 6em 13em 0 -4.5em,
+      rgba(255, 255, 255, 0.66) -4em 7em 0 -4.5em,
+      rgba(255, 255, 255, 0.66) -1em 10em 0 -4.5em,
+      rgba(255, 255, 255, 0.66) 5em 18em 0 -4.3em;
+      
+}
+
+root{
+--sun-col:#e9af31
+
+}
+.sun {
+    top: 3em;
+    left: 20em;
+    transform: rotate(0deg);
+    width: 7em;
+    height: 7em;
+    background: #fff;
+    box-shadow: 3em 3em 0 5em #e9af31 inset,
+      0 -5em 0 -2.7em #e9af31,
+      3.5em -3.5em 0 -3em #e9af31,
+      5em 0 0 -2.7em #e9af31,
+      3.5em 3.5em 0 -3em #e9af31,
+      0 5em 0 -2.7em #e9af31,
+      -3.5em 3.5em 0 -3em #e9af31,
+      -5em 0 0 -2.7em #e9af31,
+      -3.5em -3.5em 0 -3em #e9af31;
+}
+@media(max-width:998px){
+    .navbar{
+        display: none;
+
+    }
+    .section-navbar i{
+        display: block;
+        font-size: 35px;
+    
+    }
+    
+    .section-navbar .logo{
+        font-size: 1.4rem;
+    }
+
+    .navbar1_active{
+        /* width: 100%; */
+        /* height: 150%; */
+        display: block;
+    }
+   
+}

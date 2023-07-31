@@ -1,0 +1,64 @@
+.innovations-section{
+  position: relative;
+  /* display: flex; */
+  height: 100vh;
+  /* overflow: hidden; */
+  /* background-color: aqua; */
+  
+}
+
+
+
+.phone-tit{
+  display: none;
+}
+
+
+
+@media(max-width:998px){
+  .deskk{
+    display: none;
+  }
+
+  
+
+  .phonee{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 6%; */
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    /* background-color: blueviolet; */
+    overflow-y:scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .phonee h3{
+    color: var(--text-color);
+    position: relative;
+    top:13%;
+    font-size: 2.5rem;
+  }
+
+  .phone-tit{
+    position: relative;
+    display: flex;
+    margin-top: 30%;
+    overflow: hidden;
+    overflow-y:scroll!important;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* background-color: aqua; */
+  }
+  .phone-tit::-webkit-scrollbar{display: none;}
+
+  .heading-ino h1{
+    text-align: center;
+  }
+
+}

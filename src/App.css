@@ -1,0 +1,51 @@
+
+:root{
+	--bg-color:#9e8ec37b;
+	--text-color:#171515;
+	--main-color:#ec2146;
+}
+
+.hemeProvider {
+    scroll-snap-type: y mandatory;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+    /* overflow-y: scroll; Allow scrolling within the container */
+    /* scroll-behavior: smooth; */
+  }
+
+section {
+  scroll-snap-align: start; /* Snap each section (page) to the start of the viewport */
+}
+
+.mob{
+  display: none;
+}
+
+@media(max-width:998px){
+  .mob{
+    display: block;
+    color: rebeccapurple;
+    /* align-items: center; */
+  }
+
+  
+  
+    .tim{
+      /* background-color: red; */
+    }
+
+}
+  
+
+body {
+  background-color: var(--bg-color);
+  overflow-y: scroll!important;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-snap-type: y mandatory; /* Enable scroll snapping for the vertical axis */
+}
+
+section {
+  scroll-snap-align: start; /* Snap each section to the start of the viewport */
+}
+
+body::-webkit-scrollbar{display: none;}
