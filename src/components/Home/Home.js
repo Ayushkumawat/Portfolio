@@ -49,7 +49,7 @@ export default function Home() {
         </div>
       </div>
       <div className='home-img'>
-        <img src='https://github.com/Ayushkumawat/Portfolio/assets/76219349/76dd06bb-4249-4d82-8f03-7a54bc56e1c9' alt=""></img>
+        <img src='https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/img_1.png' alt=""></img>
         <span className='circle-spin'></span>
       </div>
       </div>

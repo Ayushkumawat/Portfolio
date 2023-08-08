@@ -4,6 +4,7 @@
   "homepage": "http://Ayushkumawat.github.io/Portfolio",
   "private": true,
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "@react-three/drei": "^9.73.0",
     "@react-three/fiber": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,6 +21,7 @@
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
     "react-particles": "^2.10.1",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",

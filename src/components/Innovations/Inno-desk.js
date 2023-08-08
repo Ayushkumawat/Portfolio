@@ -37,7 +37,7 @@ const Innodesk = () => {
     <div id="wrap">
       <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/851002cb-3c3e-4c57-b8f7-872a8547ec65" alt="" />
+          <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_1.png" alt="" />
           <div className="txt">
             <h1>AI MedDiagnosis</h1>
             <div className='ico'>
@@ -50,11 +50,11 @@ const Innodesk = () => {
         </div>
       </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/851002cb-3c3e-4c57-b8f7-872a8547ec65" alt="" />
+        <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_1.png" alt="" />
       </div>
       <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/672a296b-6352-4739-9ccb-d7c91a86542c" alt="" />
+          <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_2.png" alt="" />
           <div className="txt">
             <h1>Bus-Passenger Management System</h1>
             <div className='ico'>
@@ -67,11 +67,11 @@ const Innodesk = () => {
         </div>
       </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/672a296b-6352-4739-9ccb-d7c91a86542c" alt="" />
+        <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_2.png" alt="" />
       </div>
       <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/f88b1c85-e5e2-4540-abca-aff8e33d7858" alt="" />
+          <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_3.png" alt="" />
           <div className="txt">
             <h1>Facial Recognition with Gender Detection</h1>
             <div className='ico'>
@@ -84,11 +84,11 @@ const Innodesk = () => {
         </div>
       </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/f88b1c85-e5e2-4540-abca-aff8e33d7858" alt="" />
+        <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_3.png" alt="" />
       </div>
       <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/84498c31-fac6-4654-a761-de0720aabc06" alt="" />
+          <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_4.png" alt="" />
           <div className="txt">
             <h1>Advance Aerial Vehicle Detection System</h1>
             <div className='ico'>
@@ -101,11 +101,11 @@ const Innodesk = () => {
         </div>
       </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/84498c31-fac6-4654-a761-de0720aabc06" alt="" />
+        <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_4.png" alt="" />
       </div>
       <div  className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/a242881e-bb6b-47a3-81e4-2d660c09d18f" alt="" />
+          <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_5.png" alt="" />
           <div className="txt">
             <h1>News Classification - NLP</h1>
             <div className='ico'>
@@ -118,11 +118,11 @@ const Innodesk = () => {
         </div>
       </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/a242881e-bb6b-47a3-81e4-2d660c09d18f" alt="" />
+        <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_5.png" alt="" />
       </div>
       <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/687091d6-3081-4a05-acf8-657c31056aa5" alt="" />
+          <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_6.png" alt="" />
           <div className="txt">
             <h1>Resturant Order Automation</h1>
             <div className='ico'>
@@ -135,7 +135,7 @@ const Innodesk = () => {
         </div>
       </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/687091d6-3081-4a05-acf8-657c31056aa5" alt="" />
+        <img src="https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/proj/proj_6.png" alt="" />
       </div>
     </div>
     </div>

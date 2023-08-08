@@ -97,37 +97,37 @@ const Achievements = () => {
 // Dummy achievementsData
 const achievementsData = [
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/42ecd0a2-a76a-4fd1-b365-3e39dbc51165',
+    image: 'https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/achive/Jetson.jpg',
     date: 'NVIDIA',
     title: 'AI Specialist',
     text: 'I am proud to hold the Jetson AI Specialist certificate from NVIDIA, which recognizes my expertise in developing AI applications for edge devices using the powerful NVIDIA Jetson platform. This showcases my potential in areas such as computer vision, machine learning, deep learning frameworks, and deploying AI models on edge devices. With this credential, I am equipped to create intelligent solutions for industries such as robotics, computer vision, and autonomous systems.',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/997c3b45-e01b-4728-b08e-d870b895eca7',
+    image: 'https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/achive/hack.jpg',
     date: 'Google | AMD | GeeksforGeeks',
     title: 'Hackathon Winner',
     text: 'This is the description for the second achievement. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/cde370f5-4baa-4644-9c5a-2d1497bfaa4a',
+    image: 'https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/achive/patent.jpg',
     date: 'Intellectual Property India',
     title: 'Patent - Voice Automated Virtual Ordering System',
     text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/37de5648-2cd9-4401-b507-bc9584a2f4e7',
+    image: 'https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/achive/chess.jpg',
     date: 'District Chess Association',
     title: 'Chess Player',
     text: "I am chess enthusuiast I won a District Level chess competition organised by District's Chess Association and secured second position, I love to do things which require critical thinking and planning ",
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/1d4d83b0-861e-4de2-a889-b9957a4a2105',
+    image: 'https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/achive/rollball.jpg',
     date: 'State-Level Competition',
     title: 'Roll Ball Player',
     text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in ',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/2c4e0230-5813-4294-9b89-7bc1f7bcb0ed',
+    image: 'https://raw.githubusercontent.com/Ayushkumawat/Portfolio/main/public/achive/softball.jpg',
     date: 'State-Level Competition',
     title: 'Soft Ball Player',
     text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',

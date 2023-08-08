@@ -10,6 +10,10 @@
     scroll-snap-align: start;
 }
 
+.cont i{
+    margin-right: 10px;
+}
+
 .about-content::-webkit-scrollbar{display: none;}
 
 .about-content{
