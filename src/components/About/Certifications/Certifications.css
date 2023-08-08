@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: center;
   /* height: 50%; */
+  background: rgb(255, 255, 255, 0.1);
 }
 
 #slider { 
@@ -55,12 +56,17 @@
   .outr{
     position: relative;
   }
+
+  #slider.outr{
+    /* height: 100vh; */
+  }
+
   .outr h1{
     position: relative;
     display: flex;
     text-align: center;
-    margin-left: 14vw;
-    margin-top: 0%;
+    margin-left: 12.5vw;
+    margin-top: 40%;
     margin-bottom: 6rem;
     display: flex;
     font-size: 8.5vw;
@@ -69,7 +75,7 @@
 
   #slider{
     width: 90%;
+    height: 100vh;
     left: 5%;
-    margin:6rem 0rem 14rem 0rem;
   }
 }

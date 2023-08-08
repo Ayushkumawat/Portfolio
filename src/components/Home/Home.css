@@ -1,10 +1,10 @@
 .section_outer {
     display: flex;
     position: relative;
-    height: -webkit-fill-available;
+    height: 100vh;
     align-items: center;
     overflow: hidden;
-    overflow-y:scroll;
+    /* overflow-y:scroll; */
     scrollbar-width: none;
     -ms-overflow-style: none;
     scroll-snap-align: start;
@@ -53,17 +53,17 @@ span{
 }
 
 .home-content{
-    .card{
-  position: relative;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  background: rgb(255, 255, 255, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  border-top: 1px solid var(--text-color);
-  border-left: 1px solid var(--text-color);
-  backdrop-filter: blur(3px);
-}
+    card{
+        position: relative;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgb(255, 255, 255, 0.1);
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid var(--text-color);
+        border-left: 1px solid var(--text-color);
+        backdrop-filter: blur(3px);
+    }
 }
 .home-content p{
     padding: 1rem;
@@ -167,12 +167,12 @@ span{
 }
 
 @media(max-width:998px){
-
+    
     .section_outer{
         /* top:5%; */
         top:0%;
         /* height: max-content; */
-        height: 100%;
+        height: fit-content;
         flex-wrap: wrap;
     }
 
@@ -183,7 +183,7 @@ span{
     }
 
     .home-content {
-        margin-top: 3rem;
+        margin-top: 2rem;
         width:97%;
         align-content: center;
     }
@@ -191,7 +191,7 @@ span{
         font-size: 1.7rem;
     }
     .home-content h3:nth-of-type(2){
-        font-size: 1.59rem;
+        font-size: 1.54rem;
     }
     .home-img img{
         width: 200px;
@@ -202,10 +202,11 @@ span{
         height: 220px;
     }
     .home-content h1{
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     }
 
     .home-content p{
+        text-align: justify;
         padding: 1.1rem 0.7rem 0.6rem 0.6rem;
         font-size: 0.89rem;
         letter-spacing: 0.01rem;

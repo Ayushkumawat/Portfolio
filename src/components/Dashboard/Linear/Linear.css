@@ -1,17 +1,20 @@
 
 
 .linear-progress {
-  margin-top: 4px;
+  
   display: inline-block;
-  padding: 1rem 2rem 2rem;
-  width: 40%;
-  height: 10px; /* Adjust the height as needed */
+ 
+  width: 17vw;
+  align-items: center;
+  height: 4px; /* Adjust the height as needed */
   background-color: transparent; /* Background color of the progress bar */
+  
 }
 
 .linear-progress-bar {
   position: relative; /* Add relative positioning */
-  height: 120%;
+  height: 100%;
+  align-items: center;
   border-radius: 0%;
   background-color: #ec2146; /* Color of the progress bar */
   transition: 0.001s ease-out; /* Adjust the transition duration as needed */
@@ -20,8 +23,9 @@
 .linear-progress-bar::after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: -5.5px;
   right: -3px;
+  align-items: center;
   width: 12px; /* Adjust the size of the dot */
   height: 12px; /* Adjust the size of the dot */
   border-radius: 50%;
@@ -35,4 +39,11 @@
   color: var(--text-color); /* Color of the progress text */
   text-align: start;
   line-height: 20px; /* Adjust the line height to vertically center the text */
+}
+
+
+@media(max-width:998px){
+  .linear-progress {
+    width: 170px;
+  }
 }

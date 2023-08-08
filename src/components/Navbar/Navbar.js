@@ -1,24 +1,21 @@
 import React, { useContext, useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom'
 import { ThemeContext } from '../../ThemeContext';
 import './Navbar.css'
 
 export default function Navbar() {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext);
-  const [active_nav, set_active_nav]= useState(0);
-  const [tline, set_tline]= useState(0);
-  
+  const [active_nav, set_active_nav] = useState(0);
+  const [tline, set_tline] = useState(0);
+
   useEffect(() => {
-    const sections = document.querySelectorAll('section');
-    console.log(sections)
+    const container = document.querySelector('.outer_nav'); // Updated the container class name here
+    const sections = container.querySelectorAll('section');
+
     const handleScroll = () => {
       sections.forEach((section, index) => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (
-          window.scrollY >= sectionTop - sectionHeight / 3 &&
-          window.scrollY < sectionTop + sectionHeight
-        ) {
+        const alignment = getComputedStyle(section).scrollSnapAlign; // Get the scroll alignment
+        if (alignment === 'start' || alignment === 'both') {
+          // Check if the section is snapped to the start
           set_active_nav(index);
         }
       });
@@ -98,11 +95,11 @@ export default function Navbar() {
      
     </div>
      <nav className={`navbar1 ${tline===1?"navbar1_active":""}`}>
-     <a onClick={()=>{set_tline(tline===0?1:0)}} href="#home" className='btn'>Home</a>
-     <a onClick={()=>{set_tline(tline===0?1:0)}} href="#about" className='btn'>About</a>
-     <a onClick={()=>{set_tline(tline===0?1:0)}} href="#innovation" className='btn'>Innovations</a>
-     <a onClick={()=>{set_tline(tline===0?1:0)}} href="#dashboard" className='btn'>Dashboard</a>
-     <a onClick={()=>{set_tline(tline===0?1:0)}} href="#contact" className='btn'>Contact</a>
+     <a onClick={()=>{scrollToSection(0);set_tline(tline===0?1:0)}} className={active_nav === 0 ? 'active btn' : 'btn'}>Home</a>
+     <a onClick={()=>{scrollToSection(1);set_tline(tline===0?1:0)}} className={active_nav === 1 ? 'active btn' : 'btn'}>About</a>
+     <a onClick={()=>{scrollToSection(2);set_tline(tline===0?1:0)}} className={active_nav === 2 ? 'active btn' : 'btn'}>Innovations</a>
+     <a onClick={()=>{scrollToSection(3);set_tline(tline===0?1:0)}} className={active_nav === 3 ? 'active btn' : 'btn'}>Dashboard</a>
+     <a onClick={()=>{scrollToSection(4);set_tline(tline===0?1:0)}} className={active_nav === 4 ? 'active btn' : 'btn'}>Contact</a>
    </nav>
    </div>
   );

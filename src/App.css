@@ -1,46 +1,46 @@
-
-:root{
-	--bg-color:#9e8ec37b;
-	--text-color:#171515;
-	--main-color:#ec2146;
+:root {
+  --bg-color: #9e8ec37b;
+  --text-color: #171515;
+  --main-color: #ec2146;
 }
 
-.hemeProvider {
-    scroll-snap-type: y mandatory;
-    height: 100vh; /* Ensure the container takes up the full viewport height */
-    /* overflow-y: scroll; Allow scrolling within the container */
-    /* scroll-behavior: smooth; */
-  }
+.ThemeProvider {
+  scroll-snap-type: y mandatory;
+  height: 100vh; /* Ensure the container takes up the full viewport height */
+  overflow-y: scroll; /* Allow scrolling within the container */
+  scroll-behavior: smooth; /* Add smooth scroll behavior */
+}
 
 section {
   scroll-snap-align: start; /* Snap each section (page) to the start of the viewport */
+  scroll-snap-type: y mandatory; /* Enable scroll snapping for the vertical axis */
 }
 
-.mob{
+.mob {
   display: none;
 }
 
-@media(max-width:998px){
-  .mob{
+@media (max-width: 998px) {
+  .mob {
     display: block;
-    color: rebeccapurple;
-    /* align-items: center; */
+    color: var(--text-color);
   }
 
-  
-  
-    .tim{
-      /* background-color: red; */
-    }
+  .deshk {
+    display: none;
+  }
 
+  .tim {
+    height: fit-content;
+  }
 }
-  
 
 body {
   background-color: var(--bg-color);
   overflow-y: scroll!important;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  overscroll-behavior-y: contain;
+  /* scrollbar-width: none; */
+  /* -ms-overflow-style: none; */
   scroll-snap-type: y mandatory; /* Enable scroll snapping for the vertical axis */
 }
 

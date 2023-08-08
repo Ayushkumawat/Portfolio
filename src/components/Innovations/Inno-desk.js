@@ -35,9 +35,9 @@ const Innodesk = () => {
     <div className='innovation' id="Innop">
       <h2>My <span>Projects</span></h2>
     <div id="wrap">
-      <a className="hb">
+      <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/4755cb42-2ef8-40f3-b693-f2b1b04c365a" alt="" />
+          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/851002cb-3c3e-4c57-b8f7-872a8547ec65" alt="" />
           <div className="txt">
             <h1>AI MedDiagnosis</h1>
             <div className='ico'>
@@ -48,30 +48,30 @@ const Innodesk = () => {
             </div>
           </div>
         </div>
-      </a>
-      <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/4755cb42-2ef8-40f3-b693-f2b1b04c365a" alt="" />
       </div>
-      <a className="hb">
+      <div className="fullBg">
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/851002cb-3c3e-4c57-b8f7-872a8547ec65" alt="" />
+      </div>
+      <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/dc0dd68c-37f4-4850-ba50-af1149578398" alt="" />
+          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/672a296b-6352-4739-9ccb-d7c91a86542c" alt="" />
           <div className="txt">
             <h1>Bus-Passenger Management System</h1>
             <div className='ico'>
             <a href='https://github.com/Ayushkumawat/Bus-Passenger-Management-using-Smart-Card-Technology' target='_blank'><i className='bx bxl-github'></i></a>
             </div>
             <div className='card'>
-            <p>Bus-Passenger-Management will help in digitalizing local transportation system by providing QR code to students/consumers, it has an interactive UI and will help in managing user data by creating excel sheets.</p>
+            <p>Bus-Passenger-Management will help in digitalizing local transportation system by providing QR code to consumers.</p>
             </div>
           </div>
         </div>
-      </a>
-      <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/dc0dd68c-37f4-4850-ba50-af1149578398" alt="" />
       </div>
-      <a className="hb">
+      <div className="fullBg">
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/672a296b-6352-4739-9ccb-d7c91a86542c" alt="" />
+      </div>
+      <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/4d8e56d5-cdeb-4c8f-9de9-5d592d503366" alt="" />
+          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/f88b1c85-e5e2-4540-abca-aff8e33d7858" alt="" />
           <div className="txt">
             <h1>Facial Recognition with Gender Detection</h1>
             <div className='ico'>
@@ -82,30 +82,30 @@ const Innodesk = () => {
             </div>
           </div>
         </div>
-      </a>
-      <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/4d8e56d5-cdeb-4c8f-9de9-5d592d503366" alt="" />
       </div>
-      <a className="hb">
+      <div className="fullBg">
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/f88b1c85-e5e2-4540-abca-aff8e33d7858" alt="" />
+      </div>
+      <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/cd43e85a-7178-4288-829b-d2e2918f9b23" alt="" />
+          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/84498c31-fac6-4654-a761-de0720aabc06" alt="" />
           <div className="txt">
             <h1>Advance Aerial Vehicle Detection System</h1>
             <div className='ico'>
             <a href='https://github.com/Ayushkumawat/Advanced-Aerial-Drone-Detection-System' target='_blank'><i className='bx bxl-github'></i></a>
             </div>
             <div className='card'>
-            <p>This project demonstrates real-time drone detection using YOLOv5 and OpenCV. It detects drones in real-time and displays a warning when a drone is detected inside or near a defined rectangle.</p>
+            <p>This project demonstrates real-time drone detection using YOLOv5 and OpenCV. It detects drones in real-time and displays a warning if detected inside a defined space.</p>
             </div>
           </div>
         </div>
-      </a>
-      <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/cd43e85a-7178-4288-829b-d2e2918f9b23" alt="" />
       </div>
-      <a  className="hb">
+      <div className="fullBg">
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/84498c31-fac6-4654-a761-de0720aabc06" alt="" />
+      </div>
+      <div  className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/0e119eb1-c82a-4240-a22f-b40bb022df93" alt="" />
+          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/a242881e-bb6b-47a3-81e4-2d660c09d18f" alt="" />
           <div className="txt">
             <h1>News Classification - NLP</h1>
             <div className='ico'>
@@ -116,13 +116,13 @@ const Innodesk = () => {
             </div>
           </div>
         </div>
-      </a>
-      <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/0e119eb1-c82a-4240-a22f-b40bb022df93" alt="" />
       </div>
-      <a className="hb">
+      <div className="fullBg">
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/a242881e-bb6b-47a3-81e4-2d660c09d18f" alt="" />
+      </div>
+      <div className="hb">
         <div className="c">
-          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/c971291f-7ba4-4558-86a8-3d17778c1946" alt="" />
+          <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/687091d6-3081-4a05-acf8-657c31056aa5" alt="" />
           <div className="txt">
             <h1>Resturant Order Automation</h1>
             <div className='ico'>
@@ -133,9 +133,9 @@ const Innodesk = () => {
             </div>
           </div>
         </div>
-      </a>
+      </div>
       <div className="fullBg">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/c971291f-7ba4-4558-86a8-3d17778c1946" alt="" />
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/687091d6-3081-4a05-acf8-657c31056aa5" alt="" />
       </div>
     </div>
     </div>

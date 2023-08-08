@@ -1,0 +1,392 @@
+.contact_section{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+
+
+.contact_section{
+  .card{
+    position: relative;
+    color: var(--text-color);
+    width: 60%;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgb(255, 255, 255, 0.1);
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid var(--text-color);
+        border-left: 1px solid var(--text-color);
+        backdrop-filter: blur(3px);
+        margin-bottom: 1.5rem;
+  }
+}
+
+.contact_section p{
+  text-align: justify;
+  padding: 0.5rem;
+}
+
+.contact-outer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-top: 6%;
+    width: fit-content;
+    height: fit-content;
+    
+    
+}
+.contact-outer_container span{
+    color: var(--main-color);
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+.contact-outer_container h1{
+    color:var(--text-color);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    transition: opacity 0.9s ease-in-out,transform 0.9s ease-in-out;  
+}
+
+.contact-outer_container .active_contact_h1{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contact-inner_container{
+    display: flex;
+    width:fit-content;
+    row-gap: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80%;
+    animation: opac 0.9s ease forwards;
+}
+
+.input-container{
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    opacity: 1;
+    border-radius: 10px;
+    padding-inline-start: 10px;
+    height: 45px; /* or any other value you prefer */
+}
+
+.input-with-icon {
+    display: flex;
+    position: relative;
+    width: 350px;
+  }
+
+.input-with-icon i.fa-check-circle,i.fa-times-circle  {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 10px);
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
+    color: var(--main-color);
+  }
+
+.input-with-icon #textarea-icon{
+    position: absolute;
+    right: 14px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
+    color: var(--main-color);
+  }
+  
+.input-name{
+  transition-property: opacity,transform;
+  transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out ;
+  transition-delay: 0.2s,0.2s;
+}
+
+.active_input-name{
+  opacity: 1;
+  transform: translateX(0);
+  
+}
+
+#input_name{
+   background: rgb(255, 255, 255, 0.1);
+}
+
+.input-number{
+  opacity: 0;
+  transform: translateX(100px);
+  transition-property: opacity,transform;
+  transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out ;
+  transition-delay: 0.2s,0.2s;
+  background: rgb(255, 255, 255, 0.1);
+}
+.active_input-number{
+  opacity: 1;
+  transform: translateX(0);
+
+}
+.input-email{
+  opacity: 0;
+  transform: translateX(-100px);
+  transition-property: opacity,transform;
+  transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out ;
+  transition-delay: 0.3s,0.3s;
+}
+.active_input-email{
+  opacity: 1;
+  transform: translateX(0);
+}
+.input-email_subject{
+  opacity: 0;
+  transform: translateX(100px);
+  transition-property: opacity,transform;
+  transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out ;
+  transition-delay: 0.3s,0.3s;
+}
+.active_input-email_subject{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+input:focus {
+    outline: var(--main-color);
+    box-shadow: 0 0 2px 2px var(--main-color);
+  }
+
+textarea:focus{
+    outline: var(--main-color);
+    box-shadow: 0 0 2px 2px var(--main-color);
+}
+
+.form-group{
+    display: flex;
+    flex-wrap: wrap;
+    width:fit-content;
+    column-gap: 5px;
+    row-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#text-areas{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-areas textarea{
+    position: relative;
+    top:-4px;
+    width:100%;
+    height: 250px;
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+
+#text-areas .input-text{
+  opacity: 0;
+  transform: translateY(100px);
+  transition-property: opacity,transform;
+  transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out ;
+  transition-delay: 0.4s,0.4s;
+}
+
+#text-areas .active_input-text{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#contact-send{
+    margin-top: 10px;
+}
+
+.contact-btn{
+  opacity: 0;
+  scale: 0;
+  transition-property: opacity,transform;
+  transition: scale 0.9s ease-in-out, transform 0.9s ease-in-out ;
+  transition-delay: 0.8s,0.8s;
+}
+
+.active_contact-btn{
+  opacity: 1;
+  scale: 1;
+}
+
+@keyframes rotateShake {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(10deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(-10deg);
+    }
+    60% {
+      transform: rotate(10deg);
+    }
+    70% {
+      transform: rotate(-10deg);
+    }
+    80% {
+      transform: rotate(10deg);
+    }
+    90% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes rotateShake1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-1deg);
+    }
+    20% {
+      transform: rotate(1deg);
+    }
+    30% {
+      transform: rotate(-1deg);
+    }
+    40% {
+      transform: rotate(1deg);
+    }
+    50% {
+      transform: rotate(-1deg);
+    }
+    60% {
+      transform: rotate(1deg);
+    }
+    70% {
+      transform: rotate(-1deg);
+    }
+    80% {
+      transform: rotate(1deg);
+    }
+    90% {
+      transform: rotate(-1deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  
+  .fa-shake {
+    animation-name: rotateShake;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  .fa-shake1 {
+    animation-name: rotateShake1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  
+@keyframes opac{
+    0%{
+     
+      opacity: 1;
+    }
+    100%{
+      
+      opacity: 1;
+    }
+  
+
+   }
+   @media(max-width:992px){
+    .form-group{
+      /* padding-left: 5%; */
+      /* padding-right: 5%; */
+      width: 100%;
+      
+    }
+    .contact-inner_container{
+      margin-top: 10%;
+    }
+
+    .contact_section{
+      height: 100vh;
+    }
+    .contact_section{
+      .card{
+        display: none;
+      }
+    }
+    .contact-outer_container span{
+      font-size: 35px;
+
+    }
+    .contact-outer_container h1{
+      margin-bottom: 5px;
+      font-size: 35px;
+    }
+    .contact-outer_container{
+      position: relative;
+      top: 55px;
+    }
+    #text-areas{
+      
+      /* padding-left: 5%; */
+      /* padding-right: 5%; */
+      width:100%;
+      
+      
+  }
+    }
+
+    
+
+    .btnnnn{
+      .btn {
+      align-self: center;
+      display:block;
+      margin: 0rem 0rem 3rem 0;
+      background: var(--main-color);
+      color: var(--text-color);    
+      padding: 0.8rem 1.5rem;
+      border-radius: 4rem;
+      box-shadow: 0 0 0.5rem var(--text-color);
+      width: fit-content;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      font-weight: 600;
+      transition: .5s ease;
+      }     
+}

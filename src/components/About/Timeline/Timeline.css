@@ -1,7 +1,9 @@
 .outer-timeline{
+    display: flex;
+    position: relative;
     /* background-color: violet; */
-    overflow: hidden;
-    /* height: fit-content; */
+    /* overflow: hidden; */
+    height: fit-content;
 }
 
 .outer-timeline h1{
@@ -22,7 +24,7 @@
     align-items: center;
     /* overflow: hidden; */
     /* margin: 10px auto; */
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background-color: aqua; */
     overflow-y:scroll;
     scrollbar-width: none;
@@ -148,7 +150,6 @@
     transform: translate(-50%, -50%);
     justify-self: center;
     align-self: center;
-    background-color: red;
 }
 
 
@@ -213,23 +214,27 @@
 @media(max-width:998px){
 
     .outer-timeline{
-        background-color: violet;
-        height: 100vh;
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: fit-content;
+        overflow: hidden;
     }
 
     .outer-timeline h1{
         display: flex;
         width: fit-content;
         position: relative;
-        font-size: 2.2rem;
-        margin: 0rem 0rem 0rem 0rem;
+        font-size: 1.9rem;
+        margin-top:25%;
+        margin-bottom: 1.5rem;
         }
 
     .timeline{
-        height: 90vh;
+        height: fit-content;
+        /* background-color: aliceblue; */
+        /* height: 90vh; */
     }
 
 
@@ -251,13 +256,14 @@
             height:0px
         }
         100%{
-            height: 200%;
+            height: 100%;
         }
     }
 
     .container {
         display: flex;
         width: 100%;
+        height: fit-content;
         /* background-color: aliceblue; */
         
     }

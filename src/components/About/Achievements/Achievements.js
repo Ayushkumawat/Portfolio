@@ -61,6 +61,7 @@ const Achievements = () => {
 
   return (
     <div className="slider">
+      <h1>My<span>Achievements</span></h1>
       <div ref={sWrapperRef} className="slider-wrapper flex">
         {/* Add slides dynamically */}
         {achievementsData.map((achievement, index) => (
@@ -96,37 +97,37 @@ const Achievements = () => {
 // Dummy achievementsData
 const achievementsData = [
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/c8de0bd6-0a6e-43c5-b3a1-8592cf8096be',
+    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/42ecd0a2-a76a-4fd1-b365-3e39dbc51165',
     date: 'NVIDIA',
     title: 'AI Specialist',
     text: 'I am proud to hold the Jetson AI Specialist certificate from NVIDIA, which recognizes my expertise in developing AI applications for edge devices using the powerful NVIDIA Jetson platform. This showcases my potential in areas such as computer vision, machine learning, deep learning frameworks, and deploying AI models on edge devices. With this credential, I am equipped to create intelligent solutions for industries such as robotics, computer vision, and autonomous systems.',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/5a12cfdf-35e0-451d-8dca-427da2303c41',
+    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/997c3b45-e01b-4728-b08e-d870b895eca7',
     date: 'Google | AMD | GeeksforGeeks',
     title: 'Hackathon Winner',
     text: 'This is the description for the second achievement. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/48149832-deaf-466a-9d2a-15f230f8ede7',
+    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/cde370f5-4baa-4644-9c5a-2d1497bfaa4a',
     date: 'Intellectual Property India',
     title: 'Patent - Voice Automated Virtual Ordering System',
     text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/7deafbc4-11e8-4d7c-8bb4-1ef7d8a31bb0',
+    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/37de5648-2cd9-4401-b507-bc9584a2f4e7',
     date: 'District Chess Association',
     title: 'Chess Player',
-    text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    text: "I am chess enthusuiast I won a District Level chess competition organised by District's Chess Association and secured second position, I love to do things which require critical thinking and planning ",
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/4b9394cb-5076-447f-a9b6-742b2c42a11c',
+    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/1d4d83b0-861e-4de2-a889-b9957a4a2105',
     date: 'State-Level Competition',
     title: 'Roll Ball Player',
-    text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in ',
   },
   {
-    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/61163a28-f3ed-4e56-9b00-651880abd380',
+    image: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/2c4e0230-5813-4294-9b89-7bc1f7bcb0ed',
     date: 'State-Level Competition',
     title: 'Soft Ball Player',
     text: 'This is the description for the third achievement. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',

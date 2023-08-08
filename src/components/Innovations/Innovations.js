@@ -13,7 +13,7 @@ export default function Innovations() {
     
 
     <div className='phonee'>
-    <h3>My<span>Projects</span></h3>
+    <h3>My <span> Projects</span></h3>
       <div className='phone-tit'>
         <div className="phnn">
           <Innophn/>

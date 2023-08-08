@@ -48,7 +48,7 @@
     color: var(--main-color);
     /* text-align: justify; */
     font-size: 1.21rem;
-    margin: 3rem 0rem 0rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
     text-shadow:  0 0px #fff, 0 0 3px #fff, 0 0 3px var(--text-color), 0 0 9px var(--main-color), 0 0 9px var(--main-color), 0 0 9px var(--main-color), 0 0 9px var(--main-color);
     
   }

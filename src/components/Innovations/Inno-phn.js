@@ -4,38 +4,37 @@ import './Inno-phn.css';
 const Innophn = () => {
   const projects = [
     {
-      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/4755cb42-2ef8-40f3-b693-f2b1b04c365a',
+      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/851002cb-3c3e-4c57-b8f7-872a8547ec65',
       title: 'AI MedDiagnosis',
       githubLink: 'https://github.com/Ayushkumawat/AI-MedDiagnostics',
       description: 'AI MedDiagnostics is a web-based application that allows users to track their symptoms and predict the likelihood of having a disease based on their symptoms.',
     },
-    
     {
-      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/4d8e56d5-cdeb-4c8f-9de9-5d592d503366',
-      title: 'Facial Recognition with Gender Detection',
-      githubLink: 'https://github.com/Ayushkumawat/Facial-Recognition-with-Gender-Detection',
-      description: 'This project helps in real time facial recognition and gender detection. It uses only single clear image of person to detect and make predictions.',
-    },
-    {
-      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/cd43e85a-7178-4288-829b-d2e2918f9b23',
-      title: 'Advance Aerial Vehicle Detection System',
-      githubLink: 'https://github.com/Ayushkumawat/Advanced-Aerial-Drone-Detection-System',
-      description: 'This project demonstrates real-time drone detection using YOLOv5 and OpenCV. It detects drones in real-time and displays a warning when a drone is detected inside or near a defined rectangle.',
-    },
-    {
-      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/0e119eb1-c82a-4240-a22f-b40bb022df93',
-      title: 'News Classification - NLP',
-      githubLink: 'https://github.com/Ayushkumawat/News-Classification-using-Natural-Language-Processing',
-      description: 'A Machine Learning model which classifies weather the news given is genuine news or false news by the use of NLP (Natural Language Processing).',
-    },
-    {
-      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/dc0dd68c-37f4-4850-ba50-af1149578398',
+      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/672a296b-6352-4739-9ccb-d7c91a86542c',
       title: 'Bus-Passenger Management System',
       githubLink: 'https://github.com/Ayushkumawat/Bus-Passenger-Management-using-Smart-Card-Technology',
       description: 'Bus-Passenger-Management will help in digitalizing local transportation system by providing QR code to consumers, it will help in managing user data by creating excel sheets.',
     },
     {
-      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/c971291f-7ba4-4558-86a8-3d17778c1946',
+      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/f88b1c85-e5e2-4540-abca-aff8e33d7858',
+      title: 'Facial Recognition with Gender Detection',
+      githubLink: 'https://github.com/Ayushkumawat/Facial-Recognition-with-Gender-Detection',
+      description: 'This project helps in real time facial recognition and gender detection. It uses only single clear image of person to detect and make predictions.',
+    },
+    {
+      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/84498c31-fac6-4654-a761-de0720aabc06',
+      title: 'Advance Aerial Vehicle Detection System',
+      githubLink: 'https://github.com/Ayushkumawat/Advanced-Aerial-Drone-Detection-System',
+      description: 'This project demonstrates real-time drone detection using YOLOv5 and OpenCV. It detects drones in real-time and displays a warning when a drone is detected inside or near a defined rectangle.',
+    },
+    {
+      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/a242881e-bb6b-47a3-81e4-2d660c09d18f',
+      title: 'News Classification - NLP',
+      githubLink: 'https://github.com/Ayushkumawat/News-Classification-using-Natural-Language-Processing',
+      description: 'A Machine Learning model which classifies weather the news given is genuine news or false news by the use of NLP (Natural Language Processing).',
+    },
+    {
+      imageUrl: 'https://github.com/Ayushkumawat/Portfolio/assets/76219349/687091d6-3081-4a05-acf8-657c31056aa5',
       title: 'Resturant Order Automation',
       githubLink: 'https://www.github.com/Ayushkumawat',
       description: 'In this project we developed a system to automate the ordering & billing process in resturants. I also got a patent on this.',
@@ -51,7 +50,7 @@ const Innophn = () => {
 
   return (
     <div className="mobile-container">
-      {/* <h1>Time<span>line</span></h1> */}
+      
       {projects.map((project, index) => (
         
         <div

@@ -1,20 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css?family=Roboto');
-body {
-  background-color: #0d1b2b;
-  overflow: hidden;
-  width: 80%;
-  height: 100vh;
-  font-family: roboto;
-  -webkit-font-smoothing: antialiased;
-  margin: 0;
-} */
-
 .slider{
     position: relative;
     overflow: hidden;
     width: 100vw;
-    height:80vh;
-    /* background-color: #0b8bcc; */
+    height:100vh;
+}
+
+.slider h1{
+  display: none;
 }
 
 .slide.flex:nth-child(1) .slide-image img{
@@ -88,7 +80,6 @@ body {
 }
 
 .slide-content {
-  /* background-color: #0b8bcc; */
   width: 25vw;
   color: #fff;
   padding: 3vw 18vw 3vw 9vw;
@@ -195,11 +186,54 @@ div.overlay-blue:hover {
 @media(max-width:998px){
 
   .slider{
-    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
   }
 
+  .slide.flex:nth-child(1) .slide-image img{
+    width:70vw;
+  }
+  
+  .slide.flex:nth-child(2) .slide-image img{
+    width:70vw;
+  }
+  
+  .slide.flex:nth-child(3) .slide-image img{
+    width:70vw;
+  }
+  
+  .slide.flex:nth-child(4) .slide-image img{
+    width:70vw;
+  }
+  
+  .slide.flex:nth-child(5) .slide-image img{
+    width:70vw;
+  }
+  
+  .slide.flex:nth-child(6) .slide-image img{
+    width:70vw;
+  }
+
+  .slider h1{
+    /* text-align: center; */
+    display: flex;
+    width: fit-content;
+    position: relative;
+    font-size: 1.9rem;
+    margin-top: 20vw;
+    }
+
+    .slide-content{
+      margin-top: 65%;
+      margin-left: -70%;
+      width: 100px;
+    }
+
   .slider-wrapper {
-    margin-top: 38vw;
+    align-self: flex-start;
+    margin-top: 20vw;
   }
 
   .slide-image {
@@ -210,30 +244,10 @@ div.overlay-blue:hover {
     width: 24vw;
     cursor: pointer;
   }
-}
-
-/* @media(max-width:998px){
-
-  .slider-wrapper {
-    margin-top: 30vw;
-    margin-left: 11vw;
-  }
-  
-  
-    .slide-image img {
-      margin-left: 10%;
-        margin-top: 10%;
-        width: 65vw;
-    }
-
-    .slide-content{
-      margin-top: 70%;
-      margin-left: -45%;
-      width: 55vw;
-  }
 
 
-    .slide-date {
+  .slide-date {
+    width: 550px;
       font-size: 1.5rem;
       font-weight: 400;
       letter-spacing: 0.1vw;
@@ -241,6 +255,7 @@ div.overlay-blue:hover {
     }
     
     .slide-title {
+      width: 300px;
       font-size: 1.2rem;
       font-weight: 400;
       letter-spacing: 0.1vw;
@@ -249,17 +264,20 @@ div.overlay-blue:hover {
     }
     
     .slide-text {
-      font-size: 2vw;
-      line-height: 1.9vw;
-      opacity: 0.8;
+      font-size: 0.8rem;
+      line-height: normal;
+      opacity: 0.9;
+      width: 85vw;
+      letter-spacing: normal;
       padding-bottom: 4vw;
     }
-    
-    .slide-more {
-      font-weight: 400;
-      letter-spacing: 0.1vw;
-      float: left;
-      font-size: 0.9vw;
+    .arrows {
+      width: 15vw;
+      margin-bottom: 2rem;
     }
-
-} */
+    .arrow {
+      width: 5vw;
+      height: 5vw;
+    }
+    
+  }

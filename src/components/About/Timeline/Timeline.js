@@ -6,11 +6,9 @@ export default function Timeline() {
       <h1>Time<span>line</span></h1>
     
     <div className='timeline'>
-      
-      
 
       <div className="container left-container">
-      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/1c23a40d-c0f4-4013-b3e2-bc0f53d0c24b" alt=""/>
+      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/472d0f08-6ea1-4bb1-a379-8f4d1991b56d" alt=""/>
         <div className="text-box-left">
             <h2>Chairperson of IAC SAGE ACM Student Chapter</h2>
             <small>Jun 2023 - Present</small>
@@ -20,7 +18,7 @@ export default function Timeline() {
       </div>
 
       <div className="container right-container">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/3683a7ea-2a1b-485f-8941-a8b6b785b82a" alt=""/>
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/bd55a9d9-1c8a-4d13-bec1-39cc54367041" alt=""/>
         <div className="text-box-right">
             <h2>Design & Branding Head at GeeksforGeeks Student Chapter</h2>
             <small>Oct 2022 - Present</small>
@@ -30,7 +28,7 @@ export default function Timeline() {
       </div>
 
       <div className="container left-container">
-      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/c9a0c16e-c499-4c7d-a91c-7a4b87bbabbf" alt=""/>
+      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/61b6c167-fd6b-446c-8767-f820e0632451" alt=""/>
         <div className="text-box-left">
             <h2>Machine Learning Intern at Personifwy</h2>
             <small>Aug 2022 - Nov 2022</small>
@@ -40,7 +38,7 @@ export default function Timeline() {
       </div>
 
       <div className="container right-container">
-        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/27ed7bb6-0573-41da-9136-df0a424f2cbf" alt=""/>
+        <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/fe39ca86-82fc-432c-a0c0-eaee0d01355f" alt=""/>
         <div className="text-box-right">
             <h2>Sage University, Indore</h2>
             <small>2020 - 2024</small>
@@ -50,7 +48,7 @@ export default function Timeline() {
       </div>
 
       <div className="container left-container">
-      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/818ea4be-4c13-4ab6-aa92-b89719a70bcd" alt=""/>
+      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/3bb83532-e2e0-4ecf-a11f-a93b43572c2d" alt=""/>
         <div className="text-box-left">
             <h2>Guru Ramdas Public School</h2>
             <small>2019 - 2020</small>
@@ -60,7 +58,7 @@ export default function Timeline() {
       </div>
 
       <div className="container right-container">
-      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/818ea4be-4c13-4ab6-aa92-b89719a70bcd" alt=""/>
+      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/3bb83532-e2e0-4ecf-a11f-a93b43572c2d" alt=""/>
         <div className="text-box-right">
             <h2>Sai Shree International Academy</h2>
             <small>2016 - 2018</small>
@@ -71,7 +69,7 @@ export default function Timeline() {
       </div>
 
       <div className="container left-container">
-      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/818ea4be-4c13-4ab6-aa92-b89719a70bcd" alt=""/>
+      <img src="https://github.com/Ayushkumawat/Portfolio/assets/76219349/3bb83532-e2e0-4ecf-a11f-a93b43572c2d" alt=""/>
         <div className="text-box-left">
             <h2>St. Joseph's Convent School</h2>
             <small>2008 - 2015</small>
